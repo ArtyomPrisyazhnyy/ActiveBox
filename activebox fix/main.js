@@ -38,7 +38,7 @@ $(function(){
 
     /* Nav Toggle */
     
-    /*пример ютубера
+    /*чужой пример
         $("#navToggle").on("click resize", function(event){
             event.preventDefault();
 
