@@ -26,7 +26,6 @@ $(function(){
         let elementID = $(this).data('scroll');
         let elementOffSet = $(elementID).offset().top;
 
-
         console.log(elementOffSet);
 
         $("html, body").animate({
