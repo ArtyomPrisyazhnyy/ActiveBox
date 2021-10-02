@@ -1,6 +1,6 @@
 $(function(){
 
-    /* Fixed Header */
+    // Fixed Header 
 
     let header = $("#header");
     let intro = $("#intro");
@@ -20,7 +20,7 @@ $(function(){
     });
 
 
-    /* Smooth scroll*/
+    // Smooth scroll
     
     $("[data-scroll]").on("click", function(event){
         event.preventDefault();
@@ -36,18 +36,7 @@ $(function(){
         }, 1000)
     })
 
-    /* Nav Toggle */
-    
-    /*пример ютубера
-        $("#navToggle").on("click resize", function(event){
-            event.preventDefault();
-
-            nav.toggleClass("showNav");
-            $(".burger__item").toggleClass("showBurger");
-        })
-    */
-
- /*моя попытка №1*/
+    // Nav Toggle
 
     $('#navToggle').on("click", function() {
         $('.nav').toggleClass("showNav");
@@ -68,18 +57,9 @@ $(function(){
             $(".nav").css('display', 'none');
             $(".showNav").css('display', 'flex');
         }
-      
-        //         $(".burger__item").removeClass('showBurger');
-        //         if(doc_w > 977){
-        //             $(".nav").css('display', 'flex');
-        //         } else{
-        //             $(".nav").css('display', 'none');
-        //         }
 
-    })
-//   моя попытка№1 конец
 
-    /*Reviews*/
+    //Reviews
     let slider = $("#reviewsSlider");
 
     slider.slick({
