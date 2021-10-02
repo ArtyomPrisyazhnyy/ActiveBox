@@ -7,7 +7,6 @@ $(function(){
     let introH = intro.innerHeight();
     let scrollPos = $(window).scrollTop();
     
-
     $(window).on("scroll load resize", function(){
         introH = intro.innerHeight();
         scrollPos = $(this).scrollTop();
@@ -18,7 +17,6 @@ $(function(){
             header.removeClass("fixed");
         }
     });
-
 
     // Smooth scroll
     
@@ -57,7 +55,6 @@ $(function(){
             $(".nav").css('display', 'none');
             $(".showNav").css('display', 'flex');
         }
-
 
     //Reviews
     let slider = $("#reviewsSlider");
